@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">轮播图</string>
+
+    //首页
+    <string name="saoyisao">扫一扫</string>
+    <string name="fenxiang">分享</string>
+    <string name="fankui">反馈</string>
+    <string name="yingxiao">营销</string>
+    <string name="shiyonggongneng">实用功能</string>
+    <string name="shoukuan">收款</string>
+    <string name="dianpu">店铺</string>
+    <string name="shourumingxi">收入明细</string>
+    <string name="woyaojiekuan">我要借款</string>
+
+    //我的
+    <string name="xingming">姓名</string>
+    <string name="denglutianshu">登录天数</string>
+    <string name="jinrishoukuan">今日收款：¥</string>
+    <string name="zongshoukuan">总  收  款：¥</string>
+    <string name="dianpuguanli">店铺管理</string>
+    <string name="fenxianggeihaoyou">分享给好友</string>
+    <string name="bangzhuzhongxin">帮助中心</string>
+    <string name="shezhi">设置</string>
+    <string name="lianxikefu">联系客服</string>
+    <string name="banbenhao">版本号</string>
+
+</resources>

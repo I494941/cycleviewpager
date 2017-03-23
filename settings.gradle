@@ -1,0 +1,2 @@
+include ':app', ':retrofitdemo1'
+project(':retrofitdemo1').projectDir = new File('retrofitdemo')

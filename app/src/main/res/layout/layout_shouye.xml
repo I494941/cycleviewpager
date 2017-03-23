@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_show"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/vp_height"
+        android:layout_weight="1.8" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/page_margin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button_saoyisao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawablePadding="@dimen/drawablePadding"
+            android:drawableTop="@drawable/saoyisao_sy"
+            android:paddingBottom="@dimen/page_margin"
+            android:paddingTop="@dimen/page_margin15"
+            android:text="@string/saoyisao"
+            android:textSize="@dimen/text_size16" />
+
+        <Button
+            android:id="@+id/button_fenxiang"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawablePadding="@dimen/drawablePadding"
+            android:drawableTop="@drawable/saoyisao_sy"
+            android:paddingBottom="@dimen/page_margin"
+            android:paddingTop="@dimen/page_margin15"
+            android:text="@string/fenxiang"
+            android:textSize="@dimen/text_size16" />
+
+        <Button
+            android:id="@+id/button_fankui"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawablePadding="@dimen/drawablePadding"
+            android:drawableTop="@drawable/saoyisao_sy"
+            android:paddingBottom="@dimen/page_margin"
+            android:paddingTop="@dimen/page_margin15"
+            android:text="@string/fankui"
+            android:textSize="@dimen/text_size16" />
+
+        <Button
+            android:id="@+id/button_yingxiao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawablePadding="@dimen/drawablePadding"
+            android:drawableTop="@drawable/saoyisao_sy"
+            android:paddingBottom="@dimen/page_margin"
+            android:paddingTop="@dimen/page_margin15"
+            android:text="@string/yingxiao"
+            android:textSize="@dimen/text_size16" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/page_margin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_width_height"
+        android:layout_weight="0.5"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white">
+
+        <View
+            android:layout_width="@dimen/page_margin5"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_width_height"
+            android:background="@color/blue" />
+
+        <TextView
+            android:id="@+id/button_shiyonggongneng"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:text="@string/shiyonggongneng"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/page_margin5"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size16" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/page_margin5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_width_height"
+        android:layout_marginRight="@dimen/margin_width_height"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button_shoukuan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/page_margin5"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawablePadding="@dimen/drawablePadding"
+            android:drawableTop="@drawable/shoukuan_sy"
+            android:paddingBottom="@dimen/page_margin"
+            android:paddingTop="@dimen/page_margin15"
+            android:text="@string/shoukuan"
+            android:textSize="@dimen/text_size18" />
+
+        <Button
+            android:id="@+id/button_dianpu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/page_margin5"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawablePadding="@dimen/drawablePadding"
+            android:drawableTop="@drawable/saoyisao_sy"
+            android:paddingBottom="@dimen/page_margin"
+            android:paddingTop="@dimen/page_margin15"
+            android:text="@string/dianpu"
+            android:textSize="@dimen/text_size18" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_width_height"
+        android:layout_marginRight="@dimen/margin_width_height"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button_shourumingxi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/page_margin5"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawablePadding="@dimen/drawablePadding"
+            android:drawableTop="@drawable/saoyisao_sy"
+            android:paddingBottom="@dimen/page_margin"
+            android:paddingTop="@dimen/page_margin15"
+            android:text="@string/shourumingxi"
+            android:textSize="@dimen/text_size18" />
+
+        <Button
+            android:id="@+id/button_woyaojiekuan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/page_margin5"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawablePadding="@dimen/drawablePadding"
+            android:drawableTop="@drawable/saoyisao_sy"
+            android:paddingBottom="@dimen/page_margin"
+            android:paddingTop="@dimen/page_margin15"
+            android:text="@string/woyaojiekuan"
+            android:textSize="@dimen/text_size18" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
